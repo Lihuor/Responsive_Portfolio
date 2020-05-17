@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+    /* Typography */
+    font-family: 'Fira Code', monospace;
+    
+    /* Visual */
+    background-image: url("/Assets/Images/Wallpaper.jpg");
+    background-repeat: repeat;
+    
+  
+  
+    
+    
+}
+
+html {
+    /* Positioning */
+    position: relative;
+  
+    /* Box-model */
+    min-height: 100%;
+  }
+  
+  /* add space for fixed nav */
+  main {
+    margin: 80px 0;
+  }
+
+/* create styles for use for all white main boxes */
+.block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .block-header {
+    /* Typography */
+    color: #4aaaa5;
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+  }
+
+  /* NAV START */
+.navbar-brand img{
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+}
+/* Nav Link */
+.nav-link{
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+}
+
+/* media query for nav background color change */
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #4aaaa5;
+    }
+  }
+  /* END NAV */
+
+  body .card{
+    background-color: bisque;
+}
+body .navbar a{
+    font-weight: 700;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.card{
+    margin: 20px;
+    padding: 20px;
+    border: 10px;
+    max-height: max-content;
+    max-width: max-content;
+}
+
+/* BEGIN FOOTER */
+.footer {
+    /* Positioning */
+    position: absolute;
+    bottom: 0;
+  
+    /* Box-model */
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: #666;
+  }
+  
+  .text-muted-footer {
+    /* Box-model */
+    margin-top: 15px;
+  
+    /* Typography */
+    color: #fff!important;
+  }
+  
+  .two-toned-footer-color {
+    /* Box-model */
+    height: 6px;
+    padding-top: 3px;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+  }
+  /* END FOOTER */
+
+/* --- PAGE-SPECIFIC STYLES --- */
+/* ABOUT-ME PAGE */
+.about-me-header {
+    /* Positioning */
+    margin-bottom: 33px;
+    font-family: 'Fira Code', monospace;
+  
+    /* Typography */
+    font-size: 32px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  #About-me {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 200px;
+    margin: 0 20px 10px 0;
+  }
+  /* END ABOUT-ME PAGE */
+
+  * CONTACT FORM PAGE  */
+
+h1 .block-header{
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+}
+  .form-control {
+    /* give input boxes right angles */
+    border-radius: 0;
+  
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .submit-btn {
+    /* Box-model */
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+  
+    /* Typography */
+    color: #fff;
+  
+    /* Visual */
+    background-color: #4aaaa5;
+    border: 0;
+  }
+  
+  .submit-btn:hover {
+    opacity: .7;
+  }
+  
+  /* END CONTACT FORM PAGE */
