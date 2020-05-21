@@ -7,69 +7,88 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/Assets/Styles/Style.css">
+    <link rel="stylesheet" href="Assets/Styles/style.css" type="text/css">
 
-    <title>Homework-2</title>
   </head>
   <body>
-    
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">
-          <img src="Assets/Images/BootStrap-logo.png" alt="logo" style="width:50px;"> Lihuor Slot
-        </a>
-        
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+    <!-- Navigation Bar -->
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">Lihuor Slot</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    </li><li class="nav-item active">
+                      <a class="nav-link" href="index.html">Porfolio <span class="sr-only">(current)</span></a>
+                    </li></li><li class="nav-item active">
+                      <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+    </div>
+    <!-- Description -->
+    <Section>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li class="media">
+            <img src="Assets/Images/speedometer.png" class="mr-3" alt="speedometer">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Fast</h5>
+              Fast load times and lag free interaction, my highest priority.
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Portfolio</a>
+          <li class="media my-4">
+            <img src="Assets/Images/light bulb.png" class="mr-3" alt="light bulb">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Inituitive</h5>
+              Strong preference for easy to use, intuitive UX/UI.
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+          <li class="media">
+            <img src="Assets/Images/Responsive.png" class="mr-3" alt="Responsive">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Responsive</h5>
+              My layouts will work on any device, big or small.
+            </div>
+          </li>
+          <li class="media my-4">
+            <img src="Assets/Images/Rocket.png" class="mr-3" alt="Rocket">
+            <div class="media-body">
+              <h5 class="mt-0 mb-1">Dynamic</h5>
+              Websites don't have to be static, I love making pages come to life.
+            </div>
           </li>
         </ul>
-      </nav>
-
-<!-- Start of container -->
-<main class="container">
-  <section class="row">
-    <div class="col-md-8">
-      <article class="block">
-        <h1 class="block-header">About Me</h1>
-        <hr />
-        <img src="Assets/Images/About me.jpg" alt="" id="About-me" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.</p>
-        <br />
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo
-          consequat.
-        </p>
-      </article>
+      </Section>
+    <!-- Aside -->
+    <aside>
+      <div class="card" style="width: 18rem;">
+        <img src="Assets/Images/Profile Pic.JPG" class="card-img-top" alt="Profile Pic">
+        <div class="card-body">
+            <h3>Who's this guy?</h3>
+          <p class="card-text">
+            I'm a Front-End Developer for in Melbourne, Australia.
+            I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
+            Let's make something special.</p>
+        </div>
+      </div>
     </div>
-  </section>
-</main>
-<!-- End of container --> 
+  </aside>
 
-<!-- Start of footer -->
-<footer class="footer">
-  <div class="two-toned-footer-color"></div>
-  <p class="text-muted text-muted-footer text-center">
-    &copy; Copyright 2020 Lihuor Slot
-  </p>
+    
+<!-- Footer -->
+<footer class="py-4 bg-dark text-white-50" id="sticky-footer">
+  <div class="container text-center">
+    <small>Copyright &copy; Lihuor 2020. All rights reserved</small>
+  </div>
 </footer>
-<!-- End of footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
